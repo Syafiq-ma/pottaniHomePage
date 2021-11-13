@@ -1,0 +1,47 @@
+.HomeInfo{
+    height: auto;
+    background-color: #02B4C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.BoxInfo{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.infoContainer{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    width: 157px;
+    height: 60px;
+}
+.infoIcon{
+    background-color: #FFF500;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoText{
+    text-align: left;
+    color: #fafafa;
+    padding: 0 0 0 18px;
+    margin: 0;
+}
+.totalInfo{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.titleInfo{
+    margin: 0;
+    margin-top: 4px;
+    font-size: 1rem;
+}

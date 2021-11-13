@@ -1,0 +1,36 @@
+.Achievment{
+    display: block;
+    margin-bottom: 50px;
+}
+.AchievmentTitle{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #0CB496E5;
+    text-align: left;
+    padding-left: 90px;
+    margin-bottom: 30px;
+}
+.AchievmentContainer{
+    display: flex;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.AchievmentBox{
+    margin: 20px;
+    width: 190px;
+}
+.Competition{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.CompetitionRank{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:960px) {
+    .AchievmentTitle{
+        text-align: center;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,252 @@
+.Home{
+    height: 43vw;
+    background-color: #0AB396;
+    display: flex;
+    position: sticky;
+    z-index: -1;
+    overflow: hidden;
+}
+.rectangle1{
+    position: absolute;
+    top: 13.8vw;
+    left: 25%;
+    width: 26%;
+    height: auto;
+    z-index: -1;
+}
+.image1{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+.HomeTitle{
+    position: absolute;
+    top: 12vw;
+}
+.pottanicom{
+    font-weight: 800;
+    font-size: 5rem;
+    color: #fafafa;
+    margin: 0;
+    padding: 0 2vw;
+    text-align: left;
+}
+.HomeDesc{
+    text-align: justify;
+    color: #fafafa;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 2vw;
+}
+.HomeButton{
+    display: flex;
+    padding: 15px 1.5vw;
+    align-items: center;
+    cursor: pointer;
+}
+.RegisterBtn{
+    background-color: #FFF500;
+    font-size: 1rem;
+    padding: 8px 50px;
+    margin: 0 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+}
+.RegisterBtn:hover{
+    background-color: #0AB396;
+}
+.learnmoreBtn{
+    color: #fafafa;
+    font-size: 1rem;
+    margin: 0 20px;
+}
+.image2container{
+    margin-bottom: 20px;
+}
+.rectangle2{
+    position: absolute;
+    top: 21vw;
+    right: 6vw;
+    width: 15%;
+    height: auto;
+    z-index: -1;
+}
+.image4{
+    top: 22vw;
+    right: 7vw;
+    width: 32%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+}
+@media screen and (max-width:1280px) {
+    .HomeTitle{
+        z-index: 999;
+        top: 11vw;
+    }
+    .pottanicom{
+        font-weight: 800;
+        font-size: 4.5rem;
+        color: #fafafa;
+        margin: 0;
+        padding: 0 2vw;
+        text-align: left;
+    }
+    .HomeDesc{
+        text-align: justify;
+        color: #fafafa;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        padding: 0 2vw;
+    }
+}
+
+@media screen and (max-width:500px){
+    .Home{
+        height: 120vw;
+        width: 100%;
+        background-color: #0AB396;
+        display: flex;
+        position: sticky;
+        z-index: -1;
+    }
+    .rectangle1{
+        display: none;
+    }
+    .image1container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .image1{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 10;
+    }
+    .HomeTitle{
+        z-index: 100;
+        padding: 5vh;
+    }
+    .pottanicom{
+        
+        text-align: center;
+        font-weight: 900;
+        font-size: 2.3rem;
+        color: #fafafa;
+        margin: 3vh 0;
+        padding: 0 2vw;
+        text-align: center;
+    }
+    .HomeDesc{
+        text-align: center;
+        color: #fafafa;
+        font-size: 1.5rem;
+        font-weight: normal;
+        padding: 0 2vw;
+    }
+    .HomeButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .RegisterBtn{
+        background-color: #FFF500;
+        font-size: 1rem;
+        padding: 8px 50px;
+        margin: 0 10px;
+        border-radius: 50px;
+        font-weight: bolder;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+        border: none;
+    }
+    .learnmoreBtn{
+display: none;
+    }
+    .image2container{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:960px) {
+    .Home{
+        height: 60vw;
+        width: 100%;
+        background-color: #0AB396;
+        display: flex;
+        position: sticky;
+        z-index: -1;
+    }
+    .rectangle1{
+        display: none;
+    }
+    .image1container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .image1{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 10;
+    }
+    .HomeTitle{
+        z-index: 100;
+        padding: 2vh;
+    }
+    .pottanicom{
+        
+        text-align: center;
+        font-weight: 900;
+        font-size: 2.8rem;
+        color: #fafafa;
+        margin: 3vh 0;
+        padding: 0 2vw;
+        text-align: center;
+    }
+    .HomeDesc{
+        text-align: center;
+        color: #fafafa;
+        font-size: 1.8rem;
+        font-weight: normal;
+        padding: 0 2vw;
+    }
+    .HomeButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .RegisterBtn{
+        background-color: #FFF500;
+        font-size: 1rem;
+        padding: 8px 50px;
+        margin: 0 10px;
+        border-radius: 50px;
+        font-weight: bolder;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+        border: none;
+    }
+    .RegisterBtn:hover{
+        background-color: turquoise;
+    }
+    .learnmoreBtn{
+display: none;
+    }
+    .image2container{
+        display: none;
+    }
+
+}

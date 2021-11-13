@@ -1,0 +1,19 @@
+.Support{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.SupportTitle{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #0AB396;
+    margin-bottom: 50px;
+}
+.SupportContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SupportLogo{
+    margin: 20px 15px;
+}

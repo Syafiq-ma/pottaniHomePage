@@ -1,0 +1,74 @@
+.Milestones{
+    background-color: #0AB396;
+    height: auto;
+    border-radius: 90px 90px 0px 0px;
+}
+.MilestonesBackground{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 90px 90px 0 0;
+    background-image: url('../images/backgroundadvantage.png');
+}
+.MilestonesContainer{
+    background-image: linear-gradient(180deg, rgba(10, 179, 150, 0.4) 5.68%, #0AB396 85.14%);
+    top: 0;
+    height: auto;
+    width: 100%;
+    border-radius: 90px 90px 0px 0px;
+    padding-top: 50px;
+    padding-bottom: 1px;
+}
+.MilestonesTitle{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #fafafa;
+}
+.MilestonesBox{
+
+}
+.Quartal2021{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Quartal2022{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.QuartalSelanjutnya{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.Quartal{
+    color: #050505;
+    text-align: left;
+    width: 200px;
+    background-color: #FFF500;
+    margin: 10px 20px;
+    width: 280px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.QuartalWrapper{
+    width: 80%;
+}
+.QuartalTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.QuartalDesc{
+    font-size: 1rem;
+}

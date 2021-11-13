@@ -1,0 +1,73 @@
+.SidebarContainer{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 75%;
+    background-color: #0CB496;
+    display: grid;
+    align-items: center;
+    top:0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.closeIcon{
+    border: none;
+    color: #f1f1f1;
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.SidebarMenu{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,80px);
+    text-align: center;
+}
+
+.SidebarItem{
+    color: #f1f1f1;
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 1.5rem;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.SidebarItem:hover{
+    color: #FFF500;
+    animation: .2s ease-in;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.SidebarButton{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF500;
+    font-size: 1rem;
+    padding: 15px 50px;
+    margin: 0 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: none;
+    width: 20%;
+}
+
+@media screen and (max-width:480px) {
+    .SidebarMenu{
+        grid-template-rows: repeat(4,60px);
+    }
+}

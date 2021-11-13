@@ -1,0 +1,114 @@
+.Footer{
+    text-align: left;
+}
+.FooterHead{
+    background-color: #0AB396;
+    padding: 25px 120px;
+}
+.FooterTitle{
+    font-size: 2.8rem;
+    color: #fafafa;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.email{
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: none;
+    width: 25vw;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.ContactBtn{
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: #FFF500;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ContactBtn:hover{
+    background-color: #02B4C9;
+    color: white;
+    animation: .2s ease-in;
+}
+.PottaniFooter{
+    padding: 40px 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.FooterLogo{
+    width: 90px;
+    height: 90px;
+}
+.Kantor{
+    width: 180px;
+    margin: auto 50px;
+}
+.KantorTitle{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.address{
+    font-size: 1rem;
+}
+.Follow{
+    margin: auto 30px;
+}
+.FollowTitle{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.Sosmed{
+    max-width: 370px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.SosmedAccount{
+    width: 165px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin: 3px 0;
+}
+.SosmedIcon{
+    display: flex;
+    align-items: center;
+    color: #0CB496E5;
+    margin-right: 5px;
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .email{
+        width: 40vw;
+    }
+
+
+    .PottaniFooter{
+        display: block;
+    }
+    .Kantor{
+        margin: 20px 0;
+    }
+    .Follow{
+        margin: 10px 0;
+    }
+    .SosmedAccount{
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .FooterTitle{
+        font-size: 2rem;
+    }
+    .FooterHead{
+        background-color: #0AB396;
+        padding: 25px 70px;
+    }
+}

@@ -1,0 +1,36 @@
+.Team{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.TeamTitle{
+    color: #0CB496;
+    font-size: 3.5rem;
+    text-align: left;
+    font-weight: 900;
+    margin: 90px;
+    margin-bottom: 20px;
+}
+.TeamContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+.TeamBox{
+    margin: 20px 20px;
+
+}
+.TeamPhoto{
+    width: 250px;
+    height: auto;
+}
+.TeamName{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.TeamPosition{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
