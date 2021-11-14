@@ -22,7 +22,7 @@ const Achievment = () =>{
             <div className="AchievmentContainer">
             {Competition.map((competition)=>(
                 <div className="AchievmentBox">
-                    <img className="CompetitionLogo" src={competition.logo} src="Competition"></img>
+                    <img className="CompetitionLogo" src={competition.logo} alt="Competition"></img>
                     <div className="Competition">
                         {competition.name}
                     </div>
