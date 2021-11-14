@@ -18,7 +18,7 @@ const Product =()=>{
             {Product.map((produk)=>(
                 <div className="ProductContainer">
                     <div className="ProductIcon">
-                        <img clasname="PottaIcon" src={produk.icon}></img>
+                        <img clasname="PottaIcon" src={produk.icon} alt="Product"></img>
                     </div>
                     <div className="ProductBox">
                         <div className="ProductTitle">

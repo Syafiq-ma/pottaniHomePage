@@ -22,7 +22,7 @@ const Financial = () => {
                         {Finansial.map((finansial)=>(
                         <div className="FinancialItem">
                             <div className="FinancialItemIcon">
-                                <img src={finansial.icon}></img>
+                                <img src={finansial.icon} alt="Financial"></img>
                             </div>
                             <div className="FinancialItemTitle">
                                 {finansial.title}

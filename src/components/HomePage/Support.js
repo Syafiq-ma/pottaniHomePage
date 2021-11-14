@@ -17,13 +17,13 @@ const Support = () => {
                 Support
             </div>
             <div className="SupportContainer">
-                <img className="SupportLogo" src={UGM}></img>
-                <img className="SupportLogo" src={INNOPA}></img>
-                <img className="SupportLogo" src={AIJAM}></img>
-                <img className="SupportLogo" src={TFF}></img>
-                <img className="SupportLogo" src={CircleLogo}></img>
-                <img className="SupportLogo" src={Ristekdikti}></img>
-                <img className="SupportLogo" src={BPPT}></img>
+                <img className="SupportLogo" src={UGM} alt="UGM"></img>
+                <img className="SupportLogo" src={INNOPA} alt="Innopa"></img>
+                <img className="SupportLogo" src={AIJAM} alt="Aijam"></img>
+                <img className="SupportLogo" src={TFF} alt="Tff"></img>
+                <img className="SupportLogo" src={CircleLogo} alt="Logo"></img>
+                <img className="SupportLogo" src={Ristekdikti} alt="Ristekdikti"></img>
+                <img className="SupportLogo" src={BPPT} alt="BPPT"></img>
             </div>
         </div>
     )

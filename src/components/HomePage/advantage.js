@@ -20,7 +20,7 @@ const Advantages = () => {
                 {Advantage.map((advantage)=>(
                 <div className="AdvantageBox">
                     <div className="AdvantageIcon">
-                        <img src={advantage.icon}></img>
+                        <img src={advantage.icon} alt="Advantage"></img>
                     </div>
                     <div className="AdvantageTitle">
                         {advantage.title}

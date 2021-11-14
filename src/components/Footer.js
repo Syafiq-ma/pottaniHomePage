@@ -22,7 +22,7 @@ const Footer = () =>{
                 </div>
             </div>
             <div className="PottaniFooter">
-                <img className="FooterLogo" src={Pottani}></img>
+                <img className="FooterLogo" src={Pottani} alt="Logo Pottani"></img>
                 <div className="Kantor">
                     <div className="KantorTitle">Kantor Kami</div>
                     <div className="address">Pogung Baru No. 43 E </div>

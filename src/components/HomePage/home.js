@@ -22,7 +22,7 @@ const Home = () => {
     return(
         <>
         <div className='Home'>
-            <img className='rectangle1' src={Rectangle1}></img>
+            <img className='rectangle1' src={Rectangle1} alt="Rectangle"></img>
             <img className='image1' src={Image1} alt='wanita menyiram tanaman'></img>
             <div className='image1container'>
                 
@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='image2container'>
-                <img className='rectangle2' src={Rectangle2}></img>
+                <img className='rectangle2' src={Rectangle2} alt="Rectangle"></img>
                 <img className='image4' src={Image4} alt='petani melon'></img>
             </div>
         </div>
@@ -50,7 +50,7 @@ const Home = () => {
                 {Info.map((info) => (
                     <div className="infoContainer">
                         <div className="infoIcon">
-                            <img src={info.icon}></img>
+                            <img src={info.icon} alt="Icon"></img>
                         </div>
                         <div className="infoText">
                             <p className="totalInfo">{info.jumlah}</p>
