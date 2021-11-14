@@ -1,6 +1,5 @@
 import React from "react";
 import '../../styles/milestones.css'
-import Milestone from '../../images/milestone.png'
 
 const Milestones = () =>{
     return(

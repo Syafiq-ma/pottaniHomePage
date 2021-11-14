@@ -1,6 +1,5 @@
 import React from "react";
 import '../../styles/advantage.css'
-import Background from '../../images/backgroundadvantage.png'
 import TeamIcon from '../../images/teamIcon.png'
 import UsbIcon from '../../images/usbIcon.png'
 import AIIcon from '../../images/AIIcon.png'
